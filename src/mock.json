@@ -1,117 +1,170 @@
 [
   {
-    "type": "wave",
-    "color": "#31b55c",
-    "text": "ipsum esse",
-    "date": "Mon Nov 21 1988 14:18:38 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": false,
-    "isArchived": true
-  },
-  {
-    "type": "wave",
-    "color": "#0c5cdd",
-    "text": "officia minim",
-    "date": "Sun Jan 22 1978 13:54:35 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": true,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
+    "_id": "61224f128d5d939940a62566",
     "type": "square",
     "color": "#ffe125",
-    "text": "minim exercitation nulla excepteur magna do fugiat eiusmod nisi dolor",
-    "date": "Tue Jun 23 1998 21:27:44 GMT+0400 (Москва, летнее время)",
-    "isFavorite": false,
+    "text": "mollit Lorem",
+    "date": "Mon Oct 19 1992 12:47:21 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "_id": "61224f122985596d8c7c8be2",
+    "type": "square",
+    "color": "#31b55c",
+    "text": "commodo occaecat est ad ullamco dolore veniam sit cupidatat laboris",
+    "date": "Mon Apr 27 1981 23:50:53 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
     "isDeadline": false,
     "isArchived": false
   },
   {
-    "type": "square",
-    "color": "#ff3cb9",
-    "text": "voluptate amet excepteur dolor et deserunt minim est minim mollit",
-    "date": "Sat May 12 2007 15:20:33 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": false,
-    "isArchived": true
-  },
-  {
+    "_id": "61224f12ef7fce29937a57e3",
     "type": "wave",
     "color": "#0c5cdd",
-    "text": "excepteur laborum eiusmod commodo culpa veniam qui mollit eiusmod incididunt",
-    "date": "Tue Mar 22 1994 16:38:47 GMT+0300 (Москва, стандартное время)",
+    "text": "pariatur id aute velit eu ullamco consectetur aliqua Lorem excepteur",
+    "date": "Tue Feb 01 2005 22:19:12 GMT+0300 (Москва, стандартное время)",
     "isFavorite": false,
     "isDeadline": true,
     "isArchived": false
   },
   {
+    "_id": "61224f125f8f9cb7cb15d853",
     "type": "square",
     "color": "#0c5cdd",
-    "text": "esse ea eu cupidatat ullamco ullamco enim eiusmod anim in",
-    "date": "Sat Aug 20 2016 03:11:15 GMT+0300 (Москва, стандартное время)",
+    "text": "laborum ad sint magna ipsum anim sint ut qui mollit",
+    "date": "Wed Jun 21 2006 04:13:24 GMT+0400 (Москва, летнее время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f1214fbd0790e328a66",
+    "type": "wave",
+    "color": "#0c5cdd",
+    "text": "amet nisi",
+    "date": "Tue Dec 29 1998 10:44:25 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "_id": "61224f12483832cf36af99ac",
+    "type": "square",
+    "color": "#ff3cb9",
+    "text": "veniam mollit",
+    "date": "Sat Feb 02 1991 01:32:31 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "_id": "61224f12f057d7a4fb2fea02",
+    "type": "square",
+    "color": "#31b55c",
+    "text": "tempor voluptate",
+    "date": "Fri Jun 29 2001 20:06:06 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f127029b75ed1b57076",
+    "type": "wave",
+    "color": "#31b55c",
+    "text": "qui pariatur pariatur ea cillum reprehenderit dolore reprehenderit elit aute",
+    "date": "Sat Jul 19 1980 19:41:32 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f122865ee348572e33b",
+    "type": "square",
+    "color": "#0a0a0a",
+    "text": "veniam est",
+    "date": "Sun Feb 16 1986 00:03:55 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f12229fa5aa5ab1a950",
+    "type": "wave",
+    "color": "#ff3cb9",
+    "text": "consectetur laboris ea sunt excepteur eiusmod proident duis officia est",
+    "date": "Sat Jan 15 1994 13:35:13 GMT+0300 (Москва, стандартное время)",
     "isFavorite": false,
     "isDeadline": false,
     "isArchived": true
   },
   {
+    "_id": "61224f12b10519d9852b5a02",
+    "type": "square",
+    "color": "#ffe125",
+    "text": "laboris minim non excepteur culpa eiusmod quis culpa excepteur et",
+    "date": "Wed Dec 17 2008 23:32:35 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f12acc8c09f305c86c1",
+    "type": "square",
+    "color": "#ff3cb9",
+    "text": "sunt nulla",
+    "date": "Mon Nov 14 1994 06:18:24 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": false,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f1206ac8bf4c2fb6867",
+    "type": "square",
+    "color": "#31b55c",
+    "text": "deserunt ipsum",
+    "date": "Tue Nov 27 1979 17:44:05 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "_id": "61224f12c3b8cef0aa8513e5",
+    "type": "square",
+    "color": "#31b55c",
+    "text": "id occaecat enim mollit veniam ex velit et excepteur minim",
+    "date": "Fri Aug 29 1986 08:05:37 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f12b675319cd1aafd67",
+    "type": "square",
+    "color": "#0a0a0a",
+    "text": "tempor consectetur nisi excepteur magna deserunt mollit sunt ex dolor",
+    "date": "Mon Oct 21 1974 07:27:47 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "_id": "61224f12cee6d41958ef33f3",
+    "type": "square",
+    "color": "#31b55c",
+    "text": "consectetur quis",
+    "date": "Tue Jun 11 2013 03:47:15 GMT+0400 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "_id": "61224f12f6bffc2b130b7075",
     "type": "wave",
     "color": "#0a0a0a",
-    "text": "cillum veniam mollit id aliqua laborum tempor commodo voluptate incididunt",
-    "date": "Fri Sep 14 2007 05:33:26 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": true,
-    "isArchived": true
-  },
-  {
-    "type": "wave",
-    "color": "#31b55c",
-    "text": "laborum exercitation cillum magna non cillum ut reprehenderit excepteur deserunt",
-    "date": "Sat Feb 01 2020 10:32:37 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": true,
-    "isDeadline": false,
-    "isArchived": true
-  },
-  {
-    "type": "square",
-    "color": "#ffe125",
-    "text": "consectetur commodo",
-    "date": "Fri Apr 20 2001 20:26:42 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": false,
-    "isArchived": false
-  },
-  {
-    "type": "square",
-    "color": "#0c5cdd",
-    "text": "officia aute minim irure incididunt dolor est occaecat cillum sint",
-    "date": "Fri Sep 05 2003 19:39:10 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "type": "square",
-    "color": "#ff3cb9",
-    "text": "eiusmod aliqua commodo qui nulla enim consectetur velit est amet",
-    "date": "Thu Jan 06 2011 03:14:26 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": true,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "type": "square",
-    "color": "#31b55c",
-    "text": "mollit proident qui pariatur excepteur aute magna amet ullamco Lorem",
-    "date": "Sun Jul 07 1991 22:31:18 GMT+0300 (Москва, летнее время)",
-    "isFavorite": false,
-    "isDeadline": false,
-    "isArchived": false
-  },
-  {
-    "type": "wave",
-    "color": "#0c5cdd",
-    "text": "et minim exercitation aliqua et duis elit dolor veniam dolore",
-    "date": "Sat Mar 27 1971 13:23:20 GMT+0300 (Москва, стандартное время)",
+    "text": "reprehenderit laboris pariatur magna cupidatat ad nisi culpa sit commodo",
+    "date": "Mon May 12 1986 11:04:44 GMT+0400 (Москва, летнее время)",
     "isFavorite": true,
     "isDeadline": true,
     "isArchived": false

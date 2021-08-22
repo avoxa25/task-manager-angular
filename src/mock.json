@@ -1,172 +1,102 @@
 [
   {
-    "_id": "61224f128d5d939940a62566",
+    "_id": "61225641edbbd25675106bef",
     "type": "square",
-    "color": "#ffe125",
-    "text": "mollit Lorem",
-    "date": "Mon Oct 19 1992 12:47:21 GMT+0300 (Москва, стандартное время)",
+    "color": "green",
+    "text": "ea sunt fugiat sunt ullamco deserunt qui exercitation sit non",
+    "date": "Wed Mar 02 1977 10:32:19 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "_id": "612256412c70666dc744f0bb",
+    "type": "square",
+    "color": "black",
+    "text": "nisi ullamco excepteur id est exercitation ea eu minim ea",
+    "date": "Sat May 20 1989 16:56:56 GMT+0400 (Москва, летнее время)",
     "isFavorite": true,
     "isDeadline": true,
     "isArchived": true
   },
   {
-    "_id": "61224f122985596d8c7c8be2",
+    "_id": "61225641622efc33278e2501",
     "type": "square",
-    "color": "#31b55c",
-    "text": "commodo occaecat est ad ullamco dolore veniam sit cupidatat laboris",
-    "date": "Mon Apr 27 1981 23:50:53 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": false,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f12ef7fce29937a57e3",
-    "type": "wave",
-    "color": "#0c5cdd",
-    "text": "pariatur id aute velit eu ullamco consectetur aliqua Lorem excepteur",
-    "date": "Tue Feb 01 2005 22:19:12 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f125f8f9cb7cb15d853",
-    "type": "square",
-    "color": "#0c5cdd",
-    "text": "laborum ad sint magna ipsum anim sint ut qui mollit",
-    "date": "Wed Jun 21 2006 04:13:24 GMT+0400 (Москва, летнее время)",
-    "isFavorite": false,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f1214fbd0790e328a66",
-    "type": "wave",
-    "color": "#0c5cdd",
-    "text": "amet nisi",
-    "date": "Tue Dec 29 1998 10:44:25 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": true,
-    "isDeadline": true,
-    "isArchived": true
-  },
-  {
-    "_id": "61224f12483832cf36af99ac",
-    "type": "square",
-    "color": "#ff3cb9",
-    "text": "veniam mollit",
-    "date": "Sat Feb 02 1991 01:32:31 GMT+0300 (Москва, стандартное время)",
+    "color": "black",
+    "text": "in dolore",
+    "date": "Thu Nov 01 2001 19:57:03 GMT+0300 (Москва, стандартное время)",
     "isFavorite": false,
     "isDeadline": true,
     "isArchived": true
   },
   {
-    "_id": "61224f12f057d7a4fb2fea02",
+    "_id": "612256410fadf7b845e4fab1",
     "type": "square",
-    "color": "#31b55c",
-    "text": "tempor voluptate",
-    "date": "Fri Jun 29 2001 20:06:06 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": false,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f127029b75ed1b57076",
-    "type": "wave",
-    "color": "#31b55c",
-    "text": "qui pariatur pariatur ea cillum reprehenderit dolore reprehenderit elit aute",
-    "date": "Sat Jul 19 1980 19:41:32 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": true,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f122865ee348572e33b",
-    "type": "square",
-    "color": "#0a0a0a",
-    "text": "veniam est",
-    "date": "Sun Feb 16 1986 00:03:55 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f12229fa5aa5ab1a950",
-    "type": "wave",
-    "color": "#ff3cb9",
-    "text": "consectetur laboris ea sunt excepteur eiusmod proident duis officia est",
-    "date": "Sat Jan 15 1994 13:35:13 GMT+0300 (Москва, стандартное время)",
+    "color": "yellow",
+    "text": "nisi veniam",
+    "date": "Thu Sep 20 1973 02:04:23 GMT+0300 (Москва, стандартное время)",
     "isFavorite": false,
     "isDeadline": false,
     "isArchived": true
   },
   {
-    "_id": "61224f12b10519d9852b5a02",
+    "_id": "61225641024b5923bb27dce0",
     "type": "square",
-    "color": "#ffe125",
-    "text": "laboris minim non excepteur culpa eiusmod quis culpa excepteur et",
-    "date": "Wed Dec 17 2008 23:32:35 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f12acc8c09f305c86c1",
-    "type": "square",
-    "color": "#ff3cb9",
-    "text": "sunt nulla",
-    "date": "Mon Nov 14 1994 06:18:24 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": false,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f1206ac8bf4c2fb6867",
-    "type": "square",
-    "color": "#31b55c",
-    "text": "deserunt ipsum",
-    "date": "Tue Nov 27 1979 17:44:05 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": true,
-    "isArchived": true
-  },
-  {
-    "_id": "61224f12c3b8cef0aa8513e5",
-    "type": "square",
-    "color": "#31b55c",
-    "text": "id occaecat enim mollit veniam ex velit et excepteur minim",
-    "date": "Fri Aug 29 1986 08:05:37 GMT+0400 (Москва, летнее время)",
-    "isFavorite": true,
-    "isDeadline": false,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f12b675319cd1aafd67",
-    "type": "square",
-    "color": "#0a0a0a",
-    "text": "tempor consectetur nisi excepteur magna deserunt mollit sunt ex dolor",
-    "date": "Mon Oct 21 1974 07:27:47 GMT+0300 (Москва, стандартное время)",
-    "isFavorite": false,
-    "isDeadline": true,
-    "isArchived": false
-  },
-  {
-    "_id": "61224f12cee6d41958ef33f3",
-    "type": "square",
-    "color": "#31b55c",
-    "text": "consectetur quis",
-    "date": "Tue Jun 11 2013 03:47:15 GMT+0400 (Москва, стандартное время)",
+    "color": "green",
+    "text": "ut incididunt elit officia dolore sit pariatur laborum fugiat nisi",
+    "date": "Tue Apr 03 2007 23:41:47 GMT+0400 (Москва, летнее время)",
     "isFavorite": true,
     "isDeadline": true,
-    "isArchived": true
+    "isArchived": false
   },
   {
-    "_id": "61224f12f6bffc2b130b7075",
+    "_id": "61225641f6e71ff7615d0566",
     "type": "wave",
-    "color": "#0a0a0a",
-    "text": "reprehenderit laboris pariatur magna cupidatat ad nisi culpa sit commodo",
-    "date": "Mon May 12 1986 11:04:44 GMT+0400 (Москва, летнее время)",
+    "color": "pink",
+    "text": "enim minim",
+    "date": "Sat May 07 2005 08:38:14 GMT+0400 (Москва, летнее время)",
     "isFavorite": true,
     "isDeadline": true,
     "isArchived": false
+  },
+  {
+    "_id": "6122564119a992aa4b1a6f86",
+    "type": "square",
+    "color": "pink",
+    "text": "aute veniam laboris quis incididunt minim est dolore anim laboris",
+    "date": "Tue Sep 10 2013 00:05:38 GMT+0400 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "_id": "612256412b3e615a93e8a9e8",
+    "type": "wave",
+    "color": "green",
+    "text": "Lorem cillum",
+    "date": "Tue Feb 23 1993 19:33:44 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": false,
+    "isArchived": true
+  },
+  {
+    "_id": "6122564110ab415257f55a70",
+    "type": "wave",
+    "color": "pink",
+    "text": "cillum enim ut enim proident aute exercitation nostrud nulla est",
+    "date": "Thu Jan 13 2000 10:07:32 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": true
+  },
+  {
+    "_id": "61225641f2e4c75b3fda43b5",
+    "type": "square",
+    "color": "blue",
+    "text": "laboris in",
+    "date": "Sat Apr 15 1989 21:47:37 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": true
   }
 ]

@@ -1,0 +1,119 @@
+[
+  {
+    "type": "wave",
+    "color": "#31b55c",
+    "text": "ipsum esse",
+    "date": "Mon Nov 21 1988 14:18:38 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": false,
+    "isArchived": true
+  },
+  {
+    "type": "wave",
+    "color": "#0c5cdd",
+    "text": "officia minim",
+    "date": "Sun Jan 22 1978 13:54:35 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "type": "square",
+    "color": "#ffe125",
+    "text": "minim exercitation nulla excepteur magna do fugiat eiusmod nisi dolor",
+    "date": "Tue Jun 23 1998 21:27:44 GMT+0400 (Москва, летнее время)",
+    "isFavorite": false,
+    "isDeadline": false,
+    "isArchived": false
+  },
+  {
+    "type": "square",
+    "color": "#ff3cb9",
+    "text": "voluptate amet excepteur dolor et deserunt minim est minim mollit",
+    "date": "Sat May 12 2007 15:20:33 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": true
+  },
+  {
+    "type": "wave",
+    "color": "#0c5cdd",
+    "text": "excepteur laborum eiusmod commodo culpa veniam qui mollit eiusmod incididunt",
+    "date": "Tue Mar 22 1994 16:38:47 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "type": "square",
+    "color": "#0c5cdd",
+    "text": "esse ea eu cupidatat ullamco ullamco enim eiusmod anim in",
+    "date": "Sat Aug 20 2016 03:11:15 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": false,
+    "isDeadline": false,
+    "isArchived": true
+  },
+  {
+    "type": "wave",
+    "color": "#0a0a0a",
+    "text": "cillum veniam mollit id aliqua laborum tempor commodo voluptate incididunt",
+    "date": "Fri Sep 14 2007 05:33:26 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": true
+  },
+  {
+    "type": "wave",
+    "color": "#31b55c",
+    "text": "laborum exercitation cillum magna non cillum ut reprehenderit excepteur deserunt",
+    "date": "Sat Feb 01 2020 10:32:37 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": true
+  },
+  {
+    "type": "square",
+    "color": "#ffe125",
+    "text": "consectetur commodo",
+    "date": "Fri Apr 20 2001 20:26:42 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": false,
+    "isArchived": false
+  },
+  {
+    "type": "square",
+    "color": "#0c5cdd",
+    "text": "officia aute minim irure incididunt dolor est occaecat cillum sint",
+    "date": "Fri Sep 05 2003 19:39:10 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "type": "square",
+    "color": "#ff3cb9",
+    "text": "eiusmod aliqua commodo qui nulla enim consectetur velit est amet",
+    "date": "Thu Jan 06 2011 03:14:26 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": false
+  },
+  {
+    "type": "square",
+    "color": "#31b55c",
+    "text": "mollit proident qui pariatur excepteur aute magna amet ullamco Lorem",
+    "date": "Sun Jul 07 1991 22:31:18 GMT+0300 (Москва, летнее время)",
+    "isFavorite": false,
+    "isDeadline": false,
+    "isArchived": false
+  },
+  {
+    "type": "wave",
+    "color": "#0c5cdd",
+    "text": "et minim exercitation aliqua et duis elit dolor veniam dolore",
+    "date": "Sat Mar 27 1971 13:23:20 GMT+0300 (Москва, стандартное время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": false
+  }
+]

@@ -1,4 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
+import { IFilter } from './filters.service';
 import { ITask } from './task.service';
 
 @Pipe({
@@ -6,24 +7,27 @@ import { ITask } from './task.service';
 })
 export class TaskFilterPipe implements PipeTransform {
 
-  transform(tasks: ITask[], currentFilterName: String): ITask[] {
-    if (!currentFilterName) {
-      return tasks;
-    }
-    switch (currentFilterName) {
+  transform(tasks: ITask[], currentFilter: IFilter): ITask[] {
+    let filteredTasks = tasks;
+
+    switch (currentFilter.name) {
       case `All`:
-        return tasks.filter((task: ITask) => task.isArchived == true);
+        filteredTasks = tasks.filter((task: ITask) =>
+          task.isArchived == true);
+        break;
       case `Overdue`:
-        return tasks;
+        break;
       case `Today`:
-        return tasks;
+        break;
       case `Favorites`:
-        return tasks.filter((task: ITask) => task.isFavorite !== true);
+        filteredTasks = tasks.filter((task: ITask) =>
+          task.isFavorite !== true);
+        break;
       case `Archive`:
-        return tasks.filter((task: ITask) => task.isArchived !== true);
-      default:
-        return tasks;
+        filteredTasks = tasks.filter((task: ITask) =>
+          task.isArchived !== true);
     }
+    return filteredTasks;
   }
 }
 

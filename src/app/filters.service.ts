@@ -1,8 +1,8 @@
 import { Injectable } from '@angular/core';
 
-interface IFilter {
-  name: String;
-  tasksCount: Number;
+export interface IFilter {
+  name: string;
+  tasksCount: number;
 }
 
 @Injectable({
@@ -10,7 +10,7 @@ interface IFilter {
 })
 export class FiltersService {
 
-  public currentFilterName?: String;
+  public currentFilter?: IFilter;
 
 constructor() { }
 
@@ -45,16 +45,16 @@ public getFilters(): IFilter[] {
   return this.filters;
 }
 
-public filterTasks(filterName: String): void {
-  this.currentFilterName = filterName;
-  console.log(filterName);
+public filterTasks(filter: IFilter): void {
+  this.currentFilter = filter;
+  console.log(filter.name);
 }
 
-public getCurrentFilterName(): String {
-  if(this.currentFilterName) {
-    return this.currentFilterName;
+public getCurrentFilter(): IFilter {
+  if(this.currentFilter) {
+    return this.currentFilter;
   }
-    return `All`;
+    return this.filters[0];
 }
 
 }

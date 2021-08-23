@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { IFilter } from '../filters.service';
 import { TaskService } from '../task.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { TaskService } from '../task.service';
 })
 export class BoardComponent implements OnInit {
 
-  public filter?: String;
+  public filter?: string;
 
   constructor(
     private taskService: TaskService
@@ -19,8 +20,8 @@ export class BoardComponent implements OnInit {
 
   public tasks = this.taskService.getTasks();
 
-  public getFilter(): String {
-    return this.taskService.getCurrentFilterName()
+  public getFilter(): IFilter {
+    return this.taskService.getCurrentFilter()
   }
    
 }

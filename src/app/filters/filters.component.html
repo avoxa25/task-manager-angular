@@ -1,7 +1,7 @@
 <section class="main__filter filter container">
   <ng-container *ngFor="let filter of filters">
     <input type="radio" id="filter__{{filter.name.toLowerCase()}}" class="filter__input visually-hidden" name="filter">
-    <label for="filter__{{filter.name.toLowerCase()}}" class="filter__label" (click)="filterTasks(filter.name)">
+    <label for="filter__{{filter.name.toLowerCase()}}" class="filter__label" (click)="filterTasks(filter)">
       {{filter.name}} <span class="filter__{{filter.name.toLowerCase()}}-count">{{filter.tasksCount}}</span></label>
   </ng-container>
 </section>

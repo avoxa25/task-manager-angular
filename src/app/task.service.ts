@@ -1,13 +1,13 @@
 import { Injectable } from '@angular/core';
 import tasksData from '../mock.json';
-import { FiltersService } from './filters.service';
+import { FiltersService, IFilter } from './filters.service';
 
 export interface ITask {
-  _id: String,
-  type: String,
-  color: String,
-  text: String,
-  date: String,
+  _id: string,
+  type: string,
+  color: string,
+  text: string,
+  date: string,
   isFavorite: boolean,
   isDeadline: boolean,
   isArchived: boolean
@@ -28,8 +28,8 @@ public getTasks(): ITask[] {
   return this.tasks;
 }
 
-public getCurrentFilterName(): String {
-  return this.filtersService.getCurrentFilterName();
+public getCurrentFilter(): IFilter {
+  return this.filtersService.getCurrentFilter();
 }
 
 }

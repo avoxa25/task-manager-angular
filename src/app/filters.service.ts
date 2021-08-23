@@ -10,6 +10,8 @@ interface IFilter {
 })
 export class FiltersService {
 
+  currentFilterName?: String;
+
 constructor() { }
 
 private filters: IFilter[] = [
@@ -41,6 +43,11 @@ private filters: IFilter[] = [
 
 public getFilters(): IFilter[] {
   return this.filters;
+}
+
+public filterTasks(filterName: String): void {
+  this.currentFilterName = filterName;
+  console.log(filterName);
 }
 
 }

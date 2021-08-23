@@ -13,7 +13,12 @@ export class FiltersComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+
   }
 
   filters = this.filtersService.getFilters();
+
+  public filterTasks(filterName: String): void {
+    this.filtersService.filterTasks(filterName)
+  }
 }

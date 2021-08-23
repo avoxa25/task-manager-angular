@@ -8,6 +8,8 @@ import { TaskService } from '../task.service';
 })
 export class BoardComponent implements OnInit {
 
+  public filter?: String;
+
   constructor(
     private taskService: TaskService
   ) { }
@@ -16,4 +18,9 @@ export class BoardComponent implements OnInit {
   }
 
   public tasks = this.taskService.getTasks();
+
+  public getFilter(): String {
+    return this.taskService.getCurrentFilterName()
+  }
+   
 }

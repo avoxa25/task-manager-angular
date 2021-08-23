@@ -1,7 +1,8 @@
 import { Injectable } from '@angular/core';
 import tasksData from '../mock.json';
+import { FiltersService } from './filters.service';
 
-interface ITask {
+export interface ITask {
   _id: String,
   type: String,
   color: String,
@@ -17,11 +18,18 @@ interface ITask {
 })
 export class TaskService {
 
-constructor() { }
+constructor(
+  public filtersService: FiltersService
+) { }
 
 tasks: ITask[] = tasksData;
 
 public getTasks(): ITask[] {
   return this.tasks;
 }
+
+public getCurrentFilterName(): String {
+  return this.filtersService.getCurrentFilterName();
+}
+
 }

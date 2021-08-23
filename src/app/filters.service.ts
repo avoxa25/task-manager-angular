@@ -10,7 +10,7 @@ interface IFilter {
 })
 export class FiltersService {
 
-  currentFilterName?: String;
+  public currentFilterName?: String;
 
 constructor() { }
 
@@ -48,6 +48,13 @@ public getFilters(): IFilter[] {
 public filterTasks(filterName: String): void {
   this.currentFilterName = filterName;
   console.log(filterName);
+}
+
+public getCurrentFilterName(): String {
+  if(this.currentFilterName) {
+    return this.currentFilterName;
+  }
+    return `All`;
 }
 
 }

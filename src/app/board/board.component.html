@@ -9,8 +9,8 @@
 
   <div class="board__tasks">
 
-    <ng-container *ngFor="let task of tasks">
-      <ng-container *ngIf="!task.isArchived">
+    <ng-container *ngFor="let task of tasks | taskFilter: getFilter()">
+      <ng-container>
         <article class="card card--{{task.color}}" [class.card--deadline]="task.isDeadline">
           <div class="card__form">
             <div class="card__inner">

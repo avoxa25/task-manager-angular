@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FiltersService, IFilter } from '../filters.service';
+import { TaskService } from '../task.service';
 
 @Component({
   selector: 'app-filters',
@@ -9,11 +10,12 @@ import { FiltersService, IFilter } from '../filters.service';
 export class FiltersComponent implements OnInit {
 
   constructor(
-    private filtersService: FiltersService
+    private filtersService: FiltersService,
+    private taskService: TaskService
   ) { }
 
   ngOnInit() {
-
+    this.filtersService.countTasks(this.taskService.getTasks());
   }
 
   filters = this.filtersService.getFilters();

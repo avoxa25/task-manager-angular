@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import { ITask } from './task.service';
 
 export interface IFilter {
   name: string;
@@ -55,6 +56,21 @@ public getCurrentFilter(): IFilter {
     return this.currentFilter;
   }
     return this.filters[0];
+}
+
+public countTasks(tasks: ITask[]): void {
+  tasks.forEach(t => {
+    if(t.isArchived) {
+      this.filters[5].tasksCount++
+    }
+    if(t.isRepeating) {
+      this.filters[4].tasksCount++
+    }
+    if(t.isFavorite) {
+      this.filters[3].tasksCount++
+    }
+  })
+  this.filters[0].tasksCount = tasks.length - this.filters[5].tasksCount
 }
 
 }

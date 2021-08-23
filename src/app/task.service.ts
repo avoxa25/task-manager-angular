@@ -10,7 +10,8 @@ export interface ITask {
   date: string,
   isFavorite: boolean,
   isDeadline: boolean,
-  isArchived: boolean
+  isArchived: boolean,
+  isRepeating: boolean
 }
 
 @Injectable({
@@ -18,18 +19,28 @@ export interface ITask {
 })
 export class TaskService {
 
-constructor(
-  public filtersService: FiltersService
-) { }
+  constructor(
+    public filtersService: FiltersService
+  ) { }
 
-tasks: ITask[] = tasksData;
+  tasks: ITask[] = tasksData;
 
-public getTasks(): ITask[] {
-  return this.tasks;
-}
+  public getTasks(): ITask[] {
+    return this.tasks;
+  }
 
-public getCurrentFilter(): IFilter {
-  return this.filtersService.getCurrentFilter();
-}
+  public getCurrentFilter(): IFilter {
+    return this.filtersService.getCurrentFilter();
+  }
 
+  public repeatingCheck() {
+    for(let i = 0; i < this.tasks.length; i++) {
+      for(let j = 0; j < this.tasks.length; j++) {
+        if(j === i) continue;
+        if(this.tasks[i] === this.tasks[j]) {
+          this.tasks[i].isRepeating, this.tasks[j].isRepeating = true;
+        }
+      }
+    }
+  }
 }

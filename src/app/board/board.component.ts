@@ -16,6 +16,7 @@ export class BoardComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.taskService.repeatingCheck();
   }
 
   public tasks = this.taskService.getTasks();

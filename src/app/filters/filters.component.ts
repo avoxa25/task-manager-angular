@@ -14,9 +14,7 @@ export class FiltersComponent implements OnInit {
     private taskService: TaskService
   ) { }
 
-  ngOnInit() {
-    this.filtersService.countTasks(this.taskService.getTasks());
-  }
+  ngOnInit() { }
 
   public getTasks(): ITask[] {
     return this.taskService.getTasks()

@@ -32,20 +32,20 @@ export class TaskFilterPipe implements PipeTransform {
           task.isArchived !== true);
     }
 
-    switch(sortType) {
+    switch (sortType) {
       case `default`:
         break;
       case `date-up`:
-        filteredTasks.sort((a,b) => {
-          if(a.date > b.date) return 1;
-          if(a.date < b.date) return -1;
+        filteredTasks.sort((a, b) => {
+          if (a.date > b.date) return 1;
+          if (a.date < b.date) return -1;
           return 0;
         })
         break;
       case `date-down`:
-        filteredTasks.sort((a,b) => {
-          if(a.date > b.date) return -1;
-          if(a.date < b.date) return 1;
+        filteredTasks.sort((a, b) => {
+          if (a.date > b.date) return -1;
+          if (a.date < b.date) return 1;
           return 0;
         })
         break;

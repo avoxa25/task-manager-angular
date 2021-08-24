@@ -32,5 +32,13 @@ export class BoardComponent implements OnInit {
   public getSortType(): string {
    return this.taskService.getSortType();
   }
+
+  public getLoadMore(): boolean {
+    return this.taskService.getLoadMore();
+  }
+
+  public setLoadMore() {
+    this.taskService.setLoadMore();
+  }
    
 }

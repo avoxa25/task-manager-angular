@@ -25,6 +25,7 @@ export class TaskService {
 
   tasks: ITask[] = tasksData;
   sortType = `default`;
+  loadMore = false;
 
   public getTasks(): ITask[] {
     return this.tasks;
@@ -40,6 +41,14 @@ export class TaskService {
 
   public getSortType(): string {
     return this.sortType;
+   }
+
+   public getLoadMore(): boolean {
+     return this.loadMore;
+   }
+
+   public setLoadMore() {
+    this.loadMore = !this.loadMore;
    }
 
   public repeatingCheck() {

@@ -7,7 +7,7 @@ import { ITask } from './task.service';
 })
 export class TaskFilterPipe implements PipeTransform {
 
-  transform(tasks: ITask[], currentFilter: IFilter, sortType: string = `default`): ITask[] {
+  transform(tasks: ITask[], currentFilter: IFilter, sortType: string = `default`, loadMore: boolean = false): ITask[] {
     let filteredTasks = tasks;
 
     switch (currentFilter.name) {
@@ -50,6 +50,11 @@ export class TaskFilterPipe implements PipeTransform {
         })
         break;
     }
+
+    if(!loadMore) {
+      filteredTasks = filteredTasks.slice(0,8);
+    }
+
     return filteredTasks;
   }
 }

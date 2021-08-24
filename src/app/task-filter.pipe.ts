@@ -3,8 +3,10 @@ import { IFilter } from './filters.service';
 import { ITask } from './task.service';
 
 @Pipe({
-  name: 'taskFilter'
+  name: 'taskFilter',
+  pure: false
 })
+
 export class TaskFilterPipe implements PipeTransform {
 
   transform(tasks: ITask[], currentFilter: IFilter, sortType: string = `default`, loadMore: boolean = false): ITask[] {

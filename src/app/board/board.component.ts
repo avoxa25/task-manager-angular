@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { IFilter } from '../filters.service';
-import { TaskService } from '../task.service';
+import { ITask, TaskService } from '../task.service';
 
 @Component({
   selector: 'app-board',
@@ -39,6 +39,14 @@ export class BoardComponent implements OnInit {
 
   public setLoadMore() {
     this.taskService.setLoadMore();
+  }
+
+  public changeArchiveState(task: ITask): void {
+    this.taskService.changeArchiveState(task);
+  }
+
+  public changeFavoriteState(task: ITask): void {
+    this.taskService.changeFavoriteState(task);
   }
    
 }

@@ -51,6 +51,14 @@ export class TaskService {
     this.loadMore = !this.loadMore;
    }
 
+   public changeArchiveState(task: ITask): void {
+    task.isArchived = !task.isArchived;
+  }
+
+  public changeFavoriteState(task: ITask): void {
+    task.isFavorite = !task.isFavorite;
+  }
+
   public repeatingCheck() {
     // TO DO
     for (let i = 0; i < this.tasks.length; i++) {

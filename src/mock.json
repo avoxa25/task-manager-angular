@@ -207,5 +207,16 @@
     "isDeadline": true,
     "isArchived": false,
     "isRepeating": false
+  },
+  {
+    "_id": "6123afbe4cb586f263da19aa",
+    "type": "wave",
+    "color": "blue",
+    "text": "sunt adipisicing",
+    "date": "Mon Jun 16 1986 11:05:28 GMT+0400 (Москва, летнее время)",
+    "isFavorite": true,
+    "isDeadline": true,
+    "isArchived": false,
+    "isRepeating": false
   }
 ]

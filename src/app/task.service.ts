@@ -34,12 +34,18 @@ export class TaskService {
   }
 
   public repeatingCheck() {
-    for(let i = 0; i < this.tasks.length; i++) {
-      for(let j = 0; j < this.tasks.length; j++) {
-        if(j === i) continue;
-        if(this.tasks[i] === this.tasks[j]) {
-          this.tasks[i].isRepeating, this.tasks[j].isRepeating = true;
+    // TO DO
+    for (let i = 0; i < this.tasks.length; i++) {
+      for (let j = 0; j < this.tasks.length; j++) {
+        if (j === i) {
+
+        } else {
+          if (this.tasks[i] === this.tasks[j]) {
+            this.tasks[i].isRepeating, this.tasks[j].isRepeating = true;
+            console.log(this.tasks[i].isRepeating + ` ----- ` + this.tasks[j].isRepeating)
+          }
         }
+
       }
     }
   }

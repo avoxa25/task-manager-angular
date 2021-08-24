@@ -23,6 +23,10 @@ export class TaskFilterPipe implements PipeTransform {
         filteredTasks = tasks.filter((task: ITask) =>
           task.isFavorite !== true);
         break;
+      case `Repeating`:
+        filteredTasks = tasks.filter((task: ITask) =>
+          task.isRepeating !== true);
+        break;
       case `Archive`:
         filteredTasks = tasks.filter((task: ITask) =>
           task.isArchived !== true);

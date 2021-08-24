@@ -1,15 +1,15 @@
 <section class="board container">
   <div class="board__filter-list">
-    <a href="#" class="board__filter" data-sort-type="default">SORT BY DEFAULT</a>
-    <a href="#" class="board__filter" data-sort-type="date-up">SORT BY DATE up</a>
-    <a href="#" class="board__filter" data-sort-type="date-down">SORT BY DATE down</a>
+    <a href="#" class="board__filter" data-sort-type="default" (click)="changeSortType('default')">SORT BY DEFAULT</a>
+    <a href="#" class="board__filter" data-sort-type="date-up" (click)="changeSortType('date-up')">SORT BY DATE up</a>
+    <a href="#" class="board__filter" data-sort-type="date-down" (click)="changeSortType('date-down')">SORT BY DATE down</a>
   </div>
 
 
 
   <div class="board__tasks">
 
-    <ng-container *ngFor="let task of tasks | taskFilter: getFilter()">
+    <ng-container *ngFor="let task of tasks | taskFilter: getFilter(): getSortType()">
       <ng-container>
         <article class="card card--{{task.color}}" [class.card--deadline]="task.isDeadline">
           <div class="card__form">

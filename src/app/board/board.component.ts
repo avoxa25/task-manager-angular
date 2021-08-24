@@ -24,5 +24,13 @@ export class BoardComponent implements OnInit {
   public getFilter(): IFilter {
     return this.taskService.getCurrentFilter()
   }
+
+  public changeSortType(sortType: string): void {
+    this.taskService.changeSortType(sortType);
+  }
+
+  public getSortType(): string {
+   return this.taskService.getSortType();
+  }
    
 }

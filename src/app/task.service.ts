@@ -24,6 +24,7 @@ export class TaskService {
   ) { }
 
   tasks: ITask[] = tasksData;
+  sortType = `default`;
 
   public getTasks(): ITask[] {
     return this.tasks;
@@ -32,6 +33,14 @@ export class TaskService {
   public getCurrentFilter(): IFilter {
     return this.filtersService.getCurrentFilter();
   }
+
+  public changeSortType(sortType: string): void {
+    this.sortType = sortType;
+  }
+
+  public getSortType(): string {
+    return this.sortType;
+   }
 
   public repeatingCheck() {
     // TO DO

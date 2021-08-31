@@ -7,6 +7,7 @@ import { FiltersComponent } from './filters/filters.component';
 import { BoardComponent } from './board/board.component';
 import { TaskFilterPipe } from './task-filter.pipe';
 import { FiltersPipe } from './filters.pipe';
+import { TaskEditComponent } from './board/task-edit/task-edit.component';
 
 @NgModule({
   declarations: [		
@@ -14,7 +15,8 @@ import { FiltersPipe } from './filters.pipe';
       FiltersComponent,
       BoardComponent,
       TaskFilterPipe,
-      FiltersPipe
+      FiltersPipe,
+      TaskEditComponent
    ],
   imports: [
     BrowserModule,

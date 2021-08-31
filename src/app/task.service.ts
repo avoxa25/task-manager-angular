@@ -12,6 +12,7 @@ export interface ITask {
   isDeadline: boolean,
   isArchived: boolean,
   isRepeating: boolean
+  isEditing: boolean
 }
 
 @Injectable({
@@ -51,6 +52,10 @@ export class TaskService {
     this.loadMore = !this.loadMore;
    }
 
+   public changeEditState(task: ITask): void {
+     task.isEditing = !task.isEditing;
+   }
+
    public changeArchiveState(task: ITask): void {
     task.isArchived = !task.isArchived;
   }
@@ -64,7 +69,6 @@ export class TaskService {
     for (let i = 0; i < this.tasks.length; i++) {
       for (let j = 0; j < this.tasks.length; j++) {
         if (j === i) {
-
         } else {
           if (this.tasks[i] === this.tasks[j]) {
             this.tasks[i].isRepeating, this.tasks[j].isRepeating = true;

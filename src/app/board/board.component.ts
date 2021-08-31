@@ -41,6 +41,10 @@ export class BoardComponent implements OnInit {
     this.taskService.setLoadMore();
   }
 
+  public changeEditState(task: ITask): void {
+    this.taskService.changeEditState(task);
+  }
+
   public changeArchiveState(task: ITask): void {
     this.taskService.changeArchiveState(task);
   }

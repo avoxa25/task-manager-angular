@@ -21,19 +21,7 @@ export class FiltersService {
       tasksCount: 0
     },
     {
-      name: `Overdue`,
-      tasksCount: 0
-    },
-    {
-      name: `Today`,
-      tasksCount: 0
-    },
-    {
       name: `Favorites`,
-      tasksCount: 0
-    },
-    {
-      name: `Repeating`,
       tasksCount: 0
     },
     {

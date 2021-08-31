@@ -24,7 +24,7 @@
                   archive
                 </button>
                 <button type="button" class="card__btn card__btn--favorites"
-                  [ngClass]="{'card__btn--disabled' : task.isFavorite}" (click)="changeFavoriteState(task)">
+                  [ngClass]="{'card__btn--disabled' : !task.isFavorite}" (click)="changeFavoriteState(task)">
                   favorites
                 </button>
               </div>

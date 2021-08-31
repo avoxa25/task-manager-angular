@@ -35,9 +35,9 @@ export class TaskService {
       "color": "black",
       "text": "",
       "date": "",
-      "isFavorite": true,
+      "isFavorite": false,
       "isDeadline": false,
-      "isArchived": true,
+      "isArchived": false,
       "isRepeating": false,
       "isEditing": true
     };

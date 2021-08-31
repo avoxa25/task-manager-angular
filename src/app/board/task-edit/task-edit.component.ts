@@ -1,3 +1,4 @@
+import { ThrowStmt } from '@angular/compiler';
 import { Component, Input, OnInit } from '@angular/core';
 import { ITask, TaskService } from 'src/app/task.service';
 
@@ -31,6 +32,10 @@ export class TaskEditComponent {
 
   public delete(task: ITask): void {
     this.taskService.deleteTask(task);
+  }
+
+  public changeEditState(task: ITask): void {
+    this.taskService.changeEditState(task);
   }
 
 

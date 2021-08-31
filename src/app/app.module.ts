@@ -8,6 +8,7 @@ import { BoardComponent } from './board/board.component';
 import { TaskFilterPipe } from './task-filter.pipe';
 import { FiltersPipe } from './filters.pipe';
 import { TaskEditComponent } from './board/task-edit/task-edit.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [		
@@ -20,7 +21,8 @@ import { TaskEditComponent } from './board/task-edit/task-edit.component';
    ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

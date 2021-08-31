@@ -28,6 +28,11 @@ export class TaskService {
   sortType = `default`;
   loadMore = false;
 
+  public deleteTask(task: ITask) {
+    let index = this.tasks.indexOf(task);
+    this.tasks = this.tasks.splice(index, 1);
+  }
+
   public getTasks(): ITask[] {
     return this.tasks;
   }
@@ -65,17 +70,10 @@ export class TaskService {
   }
 
   public repeatingCheck() {
-    // TO DO
     for (let i = 0; i < this.tasks.length; i++) {
       for (let j = 0; j < this.tasks.length; j++) {
-        if (j === i) {
-        } else {
-          if (this.tasks[i] === this.tasks[j]) {
-            this.tasks[i].isRepeating, this.tasks[j].isRepeating = true;
-            console.log(this.tasks[i].isRepeating + ` ----- ` + this.tasks[j].isRepeating)
-          }
-        }
-
+        if (j === i) continue; 
+        //TO DO
       }
     }
   }

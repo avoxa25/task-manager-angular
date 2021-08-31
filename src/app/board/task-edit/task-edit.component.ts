@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { ITask } from 'src/app/task.service';
+import { ITask, TaskService } from 'src/app/task.service';
 
 @Component({
   selector: 'app-task-edit',
@@ -21,7 +21,17 @@ export class TaskEditComponent {
     "isEditing": false
   };
 
-  constructor() { }
+  constructor(
+    private taskService: TaskService
+  ) { }
+
+  public changeColor(color: string): void {
+    this.editingTask.color = color;
+  }
+
+  public delete(task: ITask): void {
+    this.taskService.deleteTask(task);
+  }
 
 
 }

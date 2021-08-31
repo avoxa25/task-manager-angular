@@ -28,6 +28,22 @@ export class TaskService {
   sortType = `default`;
   loadMore = false;
 
+  public addTask(): void {
+    let task: ITask =   {
+      "_id": "",
+      "type": "",
+      "color": "black",
+      "text": "",
+      "date": "",
+      "isFavorite": true,
+      "isDeadline": false,
+      "isArchived": true,
+      "isRepeating": false,
+      "isEditing": true
+    };
+    this.tasks.unshift(task)
+  }
+
   public deleteTask(task: ITask) {
     let index = this.tasks.indexOf(task);
     this.tasks = this.tasks.splice(index, 1);

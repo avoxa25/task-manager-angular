@@ -15,7 +15,7 @@ export class TaskFilterPipe implements PipeTransform {
     switch (currentFilter.name) {
       case `All`:
         filteredTasks = tasks.filter((task: ITask) =>
-          task.isArchived == true);
+          task.isArchived !== true);
         break;
       case `Overdue`:
         break;
@@ -23,15 +23,15 @@ export class TaskFilterPipe implements PipeTransform {
         break;
       case `Favorites`:
         filteredTasks = tasks.filter((task: ITask) =>
-          task.isFavorite !== true);
+          task.isFavorite === true);
         break;
       case `Repeating`:
         filteredTasks = tasks.filter((task: ITask) =>
-          task.isRepeating !== true);
+          task.isRepeating === true);
         break;
       case `Archive`:
         filteredTasks = tasks.filter((task: ITask) =>
-          task.isArchived !== true);
+          task.isArchived === true);
     }
 
     switch (sortType) {

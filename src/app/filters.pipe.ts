@@ -15,13 +15,13 @@ export class FiltersPipe implements PipeTransform {
       if(t) {
         filters[0].tasksCount++
       }
-      if(!t.isArchived) {
+      if(t.isArchived) {
         filters[5].tasksCount++
       }
-      if(!t.isRepeating) {
+      if(t.isRepeating) {
         filters[4].tasksCount++
       }
-      if(!t.isFavorite) {
+      if(t.isFavorite) {
         filters[3].tasksCount++
       }
     })
